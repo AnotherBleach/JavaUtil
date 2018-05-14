@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.io.InputStream;
 public class FileUtil 
 {
-        
+
+	//test
        public static long getFileSize(String file) throws IOException
        {
             return getFileSize(new File(file));
